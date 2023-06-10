@@ -1,0 +1,250 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.contactapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="25"
+8-->/Users/nour-elmi/Desktop/S4/Dev_Mobile/ContactApp/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/nour-elmi/Desktop/S4/Dev_Mobile/ContactApp/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->[com.google.firebase:firebase-auth:21.0.3] /Users/nour-elmi/.gradle/caches/transforms-3/cd471f894be49daa94032bca6d4bf200/transformed/firebase-auth-21.0.3/AndroidManifest.xml:23:5-67
+11-->[com.google.firebase:firebase-auth:21.0.3] /Users/nour-elmi/.gradle/caches/transforms-3/cd471f894be49daa94032bca6d4bf200/transformed/firebase-auth-21.0.3/AndroidManifest.xml:23:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.firebase:firebase-auth:21.0.3] /Users/nour-elmi/.gradle/caches/transforms-3/cd471f894be49daa94032bca6d4bf200/transformed/firebase-auth-21.0.3/AndroidManifest.xml:24:5-79
+12-->[com.google.firebase:firebase-auth:21.0.3] /Users/nour-elmi/.gradle/caches/transforms-3/cd471f894be49daa94032bca6d4bf200/transformed/firebase-auth-21.0.3/AndroidManifest.xml:24:22-76
+13
+14    <permission
+14-->[androidx.core:core:1.9.0] /Users/nour-elmi/.gradle/caches/transforms-3/2a6b8d47231ddcb1817ffe241541665b/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+15        android:name="com.example.contactapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+15-->[androidx.core:core:1.9.0] /Users/nour-elmi/.gradle/caches/transforms-3/2a6b8d47231ddcb1817ffe241541665b/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+16        android:protectionLevel="signature" />
+16-->[androidx.core:core:1.9.0] /Users/nour-elmi/.gradle/caches/transforms-3/2a6b8d47231ddcb1817ffe241541665b/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+17
+18    <uses-permission android:name="com.example.contactapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+18-->[androidx.core:core:1.9.0] /Users/nour-elmi/.gradle/caches/transforms-3/2a6b8d47231ddcb1817ffe241541665b/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.9.0] /Users/nour-elmi/.gradle/caches/transforms-3/2a6b8d47231ddcb1817ffe241541665b/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+19
+20    <application
+20-->/Users/nour-elmi/Desktop/S4/Dev_Mobile/ContactApp/app/src/main/AndroidManifest.xml:5:5-35:19
+21        android:allowBackup="true"
+21-->/Users/nour-elmi/Desktop/S4/Dev_Mobile/ContactApp/app/src/main/AndroidManifest.xml:6:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.9.0] /Users/nour-elmi/.gradle/caches/transforms-3/2a6b8d47231ddcb1817ffe241541665b/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+23        android:dataExtractionRules="@xml/data_extraction_rules"
+23-->/Users/nour-elmi/Desktop/S4/Dev_Mobile/ContactApp/app/src/main/AndroidManifest.xml:7:9-65
+24        android:debuggable="true"
+25        android:extractNativeLibs="false"
+26        android:fullBackupContent="@xml/backup_rules"
+26-->/Users/nour-elmi/Desktop/S4/Dev_Mobile/ContactApp/app/src/main/AndroidManifest.xml:8:9-54
+27        android:icon="@mipmap/ic_launcher"
+27-->/Users/nour-elmi/Desktop/S4/Dev_Mobile/ContactApp/app/src/main/AndroidManifest.xml:9:9-43
+28        android:label="@string/app_name"
+28-->/Users/nour-elmi/Desktop/S4/Dev_Mobile/ContactApp/app/src/main/AndroidManifest.xml:10:9-41
+29        android:supportsRtl="true"
+29-->/Users/nour-elmi/Desktop/S4/Dev_Mobile/ContactApp/app/src/main/AndroidManifest.xml:11:9-35
+30        android:testOnly="true"
+31        android:theme="@style/Theme.ContactApp" >
+31-->/Users/nour-elmi/Desktop/S4/Dev_Mobile/ContactApp/app/src/main/AndroidManifest.xml:12:9-48
+32        <activity
+32-->/Users/nour-elmi/Desktop/S4/Dev_Mobile/ContactApp/app/src/main/AndroidManifest.xml:14:9-16:40
+33            android:name="com.example.contactapp.Liste_favoris"
+33-->/Users/nour-elmi/Desktop/S4/Dev_Mobile/ContactApp/app/src/main/AndroidManifest.xml:15:13-42
+34            android:exported="false" />
+34-->/Users/nour-elmi/Desktop/S4/Dev_Mobile/ContactApp/app/src/main/AndroidManifest.xml:16:13-37
+35        <activity
+35-->/Users/nour-elmi/Desktop/S4/Dev_Mobile/ContactApp/app/src/main/AndroidManifest.xml:17:9-19:40
+36            android:name="com.example.contactapp.Detail_contact"
+36-->/Users/nour-elmi/Desktop/S4/Dev_Mobile/ContactApp/app/src/main/AndroidManifest.xml:18:13-43
+37            android:exported="false" />
+37-->/Users/nour-elmi/Desktop/S4/Dev_Mobile/ContactApp/app/src/main/AndroidManifest.xml:19:13-37
+38        <activity
+38-->/Users/nour-elmi/Desktop/S4/Dev_Mobile/ContactApp/app/src/main/AndroidManifest.xml:20:9-22:40
+39            android:name="com.example.contactapp.Ajouter_contact"
+39-->/Users/nour-elmi/Desktop/S4/Dev_Mobile/ContactApp/app/src/main/AndroidManifest.xml:21:13-44
+40            android:exported="false" />
+40-->/Users/nour-elmi/Desktop/S4/Dev_Mobile/ContactApp/app/src/main/AndroidManifest.xml:22:13-37
+41        <activity
+41-->/Users/nour-elmi/Desktop/S4/Dev_Mobile/ContactApp/app/src/main/AndroidManifest.xml:23:9-25:40
+42            android:name="com.example.contactapp.Liste_contacts"
+42-->/Users/nour-elmi/Desktop/S4/Dev_Mobile/ContactApp/app/src/main/AndroidManifest.xml:24:13-43
+43            android:exported="false" />
+43-->/Users/nour-elmi/Desktop/S4/Dev_Mobile/ContactApp/app/src/main/AndroidManifest.xml:25:13-37
+44        <activity
+44-->/Users/nour-elmi/Desktop/S4/Dev_Mobile/ContactApp/app/src/main/AndroidManifest.xml:26:9-34:20
+45            android:name="com.example.contactapp.MainActivity"
+45-->/Users/nour-elmi/Desktop/S4/Dev_Mobile/ContactApp/app/src/main/AndroidManifest.xml:27:13-41
+46            android:exported="true" >
+46-->/Users/nour-elmi/Desktop/S4/Dev_Mobile/ContactApp/app/src/main/AndroidManifest.xml:28:13-36
+47            <intent-filter>
+47-->/Users/nour-elmi/Desktop/S4/Dev_Mobile/ContactApp/app/src/main/AndroidManifest.xml:29:13-33:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->/Users/nour-elmi/Desktop/S4/Dev_Mobile/ContactApp/app/src/main/AndroidManifest.xml:30:17-69
+48-->/Users/nour-elmi/Desktop/S4/Dev_Mobile/ContactApp/app/src/main/AndroidManifest.xml:30:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->/Users/nour-elmi/Desktop/S4/Dev_Mobile/ContactApp/app/src/main/AndroidManifest.xml:32:17-77
+50-->/Users/nour-elmi/Desktop/S4/Dev_Mobile/ContactApp/app/src/main/AndroidManifest.xml:32:27-74
+51            </intent-filter>
+52        </activity>
+53        <activity
+53-->[com.google.firebase:firebase-auth:21.0.3] /Users/nour-elmi/.gradle/caches/transforms-3/cd471f894be49daa94032bca6d4bf200/transformed/firebase-auth-21.0.3/AndroidManifest.xml:27:9-44:20
+54            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+54-->[com.google.firebase:firebase-auth:21.0.3] /Users/nour-elmi/.gradle/caches/transforms-3/cd471f894be49daa94032bca6d4bf200/transformed/firebase-auth-21.0.3/AndroidManifest.xml:28:13-80
+55            android:excludeFromRecents="true"
+55-->[com.google.firebase:firebase-auth:21.0.3] /Users/nour-elmi/.gradle/caches/transforms-3/cd471f894be49daa94032bca6d4bf200/transformed/firebase-auth-21.0.3/AndroidManifest.xml:29:13-46
+56            android:exported="true"
+56-->[com.google.firebase:firebase-auth:21.0.3] /Users/nour-elmi/.gradle/caches/transforms-3/cd471f894be49daa94032bca6d4bf200/transformed/firebase-auth-21.0.3/AndroidManifest.xml:30:13-36
+57            android:launchMode="singleTask"
+57-->[com.google.firebase:firebase-auth:21.0.3] /Users/nour-elmi/.gradle/caches/transforms-3/cd471f894be49daa94032bca6d4bf200/transformed/firebase-auth-21.0.3/AndroidManifest.xml:31:13-44
+58            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+58-->[com.google.firebase:firebase-auth:21.0.3] /Users/nour-elmi/.gradle/caches/transforms-3/cd471f894be49daa94032bca6d4bf200/transformed/firebase-auth-21.0.3/AndroidManifest.xml:32:13-72
+59            <intent-filter>
+59-->[com.google.firebase:firebase-auth:21.0.3] /Users/nour-elmi/.gradle/caches/transforms-3/cd471f894be49daa94032bca6d4bf200/transformed/firebase-auth-21.0.3/AndroidManifest.xml:33:13-43:29
+60                <action android:name="android.intent.action.VIEW" />
+60-->[com.google.firebase:firebase-auth:21.0.3] /Users/nour-elmi/.gradle/caches/transforms-3/cd471f894be49daa94032bca6d4bf200/transformed/firebase-auth-21.0.3/AndroidManifest.xml:34:17-69
+60-->[com.google.firebase:firebase-auth:21.0.3] /Users/nour-elmi/.gradle/caches/transforms-3/cd471f894be49daa94032bca6d4bf200/transformed/firebase-auth-21.0.3/AndroidManifest.xml:34:25-66
+61
+62                <category android:name="android.intent.category.DEFAULT" />
+62-->[com.google.firebase:firebase-auth:21.0.3] /Users/nour-elmi/.gradle/caches/transforms-3/cd471f894be49daa94032bca6d4bf200/transformed/firebase-auth-21.0.3/AndroidManifest.xml:36:17-76
+62-->[com.google.firebase:firebase-auth:21.0.3] /Users/nour-elmi/.gradle/caches/transforms-3/cd471f894be49daa94032bca6d4bf200/transformed/firebase-auth-21.0.3/AndroidManifest.xml:36:27-73
+63                <category android:name="android.intent.category.BROWSABLE" />
+63-->[com.google.firebase:firebase-auth:21.0.3] /Users/nour-elmi/.gradle/caches/transforms-3/cd471f894be49daa94032bca6d4bf200/transformed/firebase-auth-21.0.3/AndroidManifest.xml:37:17-78
+63-->[com.google.firebase:firebase-auth:21.0.3] /Users/nour-elmi/.gradle/caches/transforms-3/cd471f894be49daa94032bca6d4bf200/transformed/firebase-auth-21.0.3/AndroidManifest.xml:37:27-75
+64
+65                <data
+65-->[com.google.firebase:firebase-auth:21.0.3] /Users/nour-elmi/.gradle/caches/transforms-3/cd471f894be49daa94032bca6d4bf200/transformed/firebase-auth-21.0.3/AndroidManifest.xml:39:17-42:51
+66                    android:host="firebase.auth"
+66-->[com.google.firebase:firebase-auth:21.0.3] /Users/nour-elmi/.gradle/caches/transforms-3/cd471f894be49daa94032bca6d4bf200/transformed/firebase-auth-21.0.3/AndroidManifest.xml:40:21-49
+67                    android:path="/"
+67-->[com.google.firebase:firebase-auth:21.0.3] /Users/nour-elmi/.gradle/caches/transforms-3/cd471f894be49daa94032bca6d4bf200/transformed/firebase-auth-21.0.3/AndroidManifest.xml:41:21-37
+68                    android:scheme="genericidp" />
+68-->[com.google.firebase:firebase-auth:21.0.3] /Users/nour-elmi/.gradle/caches/transforms-3/cd471f894be49daa94032bca6d4bf200/transformed/firebase-auth-21.0.3/AndroidManifest.xml:42:21-48
+69            </intent-filter>
+70        </activity>
+71        <activity
+71-->[com.google.firebase:firebase-auth:21.0.3] /Users/nour-elmi/.gradle/caches/transforms-3/cd471f894be49daa94032bca6d4bf200/transformed/firebase-auth-21.0.3/AndroidManifest.xml:45:9-62:20
+72            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+72-->[com.google.firebase:firebase-auth:21.0.3] /Users/nour-elmi/.gradle/caches/transforms-3/cd471f894be49daa94032bca6d4bf200/transformed/firebase-auth-21.0.3/AndroidManifest.xml:46:13-79
+73            android:excludeFromRecents="true"
+73-->[com.google.firebase:firebase-auth:21.0.3] /Users/nour-elmi/.gradle/caches/transforms-3/cd471f894be49daa94032bca6d4bf200/transformed/firebase-auth-21.0.3/AndroidManifest.xml:47:13-46
+74            android:exported="true"
+74-->[com.google.firebase:firebase-auth:21.0.3] /Users/nour-elmi/.gradle/caches/transforms-3/cd471f894be49daa94032bca6d4bf200/transformed/firebase-auth-21.0.3/AndroidManifest.xml:48:13-36
+75            android:launchMode="singleTask"
+75-->[com.google.firebase:firebase-auth:21.0.3] /Users/nour-elmi/.gradle/caches/transforms-3/cd471f894be49daa94032bca6d4bf200/transformed/firebase-auth-21.0.3/AndroidManifest.xml:49:13-44
+76            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+76-->[com.google.firebase:firebase-auth:21.0.3] /Users/nour-elmi/.gradle/caches/transforms-3/cd471f894be49daa94032bca6d4bf200/transformed/firebase-auth-21.0.3/AndroidManifest.xml:50:13-72
+77            <intent-filter>
+77-->[com.google.firebase:firebase-auth:21.0.3] /Users/nour-elmi/.gradle/caches/transforms-3/cd471f894be49daa94032bca6d4bf200/transformed/firebase-auth-21.0.3/AndroidManifest.xml:51:13-61:29
+78                <action android:name="android.intent.action.VIEW" />
+78-->[com.google.firebase:firebase-auth:21.0.3] /Users/nour-elmi/.gradle/caches/transforms-3/cd471f894be49daa94032bca6d4bf200/transformed/firebase-auth-21.0.3/AndroidManifest.xml:34:17-69
+78-->[com.google.firebase:firebase-auth:21.0.3] /Users/nour-elmi/.gradle/caches/transforms-3/cd471f894be49daa94032bca6d4bf200/transformed/firebase-auth-21.0.3/AndroidManifest.xml:34:25-66
+79
+80                <category android:name="android.intent.category.DEFAULT" />
+80-->[com.google.firebase:firebase-auth:21.0.3] /Users/nour-elmi/.gradle/caches/transforms-3/cd471f894be49daa94032bca6d4bf200/transformed/firebase-auth-21.0.3/AndroidManifest.xml:36:17-76
+80-->[com.google.firebase:firebase-auth:21.0.3] /Users/nour-elmi/.gradle/caches/transforms-3/cd471f894be49daa94032bca6d4bf200/transformed/firebase-auth-21.0.3/AndroidManifest.xml:36:27-73
+81                <category android:name="android.intent.category.BROWSABLE" />
+81-->[com.google.firebase:firebase-auth:21.0.3] /Users/nour-elmi/.gradle/caches/transforms-3/cd471f894be49daa94032bca6d4bf200/transformed/firebase-auth-21.0.3/AndroidManifest.xml:37:17-78
+81-->[com.google.firebase:firebase-auth:21.0.3] /Users/nour-elmi/.gradle/caches/transforms-3/cd471f894be49daa94032bca6d4bf200/transformed/firebase-auth-21.0.3/AndroidManifest.xml:37:27-75
+82
+83                <data
+83-->[com.google.firebase:firebase-auth:21.0.3] /Users/nour-elmi/.gradle/caches/transforms-3/cd471f894be49daa94032bca6d4bf200/transformed/firebase-auth-21.0.3/AndroidManifest.xml:39:17-42:51
+84                    android:host="firebase.auth"
+84-->[com.google.firebase:firebase-auth:21.0.3] /Users/nour-elmi/.gradle/caches/transforms-3/cd471f894be49daa94032bca6d4bf200/transformed/firebase-auth-21.0.3/AndroidManifest.xml:40:21-49
+85                    android:path="/"
+85-->[com.google.firebase:firebase-auth:21.0.3] /Users/nour-elmi/.gradle/caches/transforms-3/cd471f894be49daa94032bca6d4bf200/transformed/firebase-auth-21.0.3/AndroidManifest.xml:41:21-37
+86                    android:scheme="recaptcha" />
+86-->[com.google.firebase:firebase-auth:21.0.3] /Users/nour-elmi/.gradle/caches/transforms-3/cd471f894be49daa94032bca6d4bf200/transformed/firebase-auth-21.0.3/AndroidManifest.xml:42:21-48
+87            </intent-filter>
+88        </activity>
+89
+90        <service
+90-->[com.google.firebase:firebase-auth:21.0.3] /Users/nour-elmi/.gradle/caches/transforms-3/cd471f894be49daa94032bca6d4bf200/transformed/firebase-auth-21.0.3/AndroidManifest.xml:64:9-70:19
+91            android:name="com.google.firebase.components.ComponentDiscoveryService"
+91-->[com.google.firebase:firebase-auth:21.0.3] /Users/nour-elmi/.gradle/caches/transforms-3/cd471f894be49daa94032bca6d4bf200/transformed/firebase-auth-21.0.3/AndroidManifest.xml:65:13-84
+92            android:directBootAware="true"
+92-->[com.google.firebase:firebase-common:20.1.0] /Users/nour-elmi/.gradle/caches/transforms-3/3959645a3573edbfd4d9bc542067603b/transformed/firebase-common-20.1.0/AndroidManifest.xml:35:13-43
+93            android:exported="false" >
+93-->[com.google.firebase:firebase-auth:21.0.3] /Users/nour-elmi/.gradle/caches/transforms-3/cd471f894be49daa94032bca6d4bf200/transformed/firebase-auth-21.0.3/AndroidManifest.xml:66:13-37
+94            <meta-data
+94-->[com.google.firebase:firebase-auth:21.0.3] /Users/nour-elmi/.gradle/caches/transforms-3/cd471f894be49daa94032bca6d4bf200/transformed/firebase-auth-21.0.3/AndroidManifest.xml:67:13-69:85
+95                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+95-->[com.google.firebase:firebase-auth:21.0.3] /Users/nour-elmi/.gradle/caches/transforms-3/cd471f894be49daa94032bca6d4bf200/transformed/firebase-auth-21.0.3/AndroidManifest.xml:68:17-109
+96                android:value="com.google.firebase.components.ComponentRegistrar" />
+96-->[com.google.firebase:firebase-auth:21.0.3] /Users/nour-elmi/.gradle/caches/transforms-3/cd471f894be49daa94032bca6d4bf200/transformed/firebase-auth-21.0.3/AndroidManifest.xml:69:17-82
+97            <meta-data
+97-->[com.google.firebase:firebase-database:20.0.4] /Users/nour-elmi/.gradle/caches/transforms-3/71ff942f5e347d894f09ff9be1206dfa/transformed/firebase-database-20.0.4/AndroidManifest.xml:32:13-34:85
+98                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+98-->[com.google.firebase:firebase-database:20.0.4] /Users/nour-elmi/.gradle/caches/transforms-3/71ff942f5e347d894f09ff9be1206dfa/transformed/firebase-database-20.0.4/AndroidManifest.xml:33:17-109
+99                android:value="com.google.firebase.components.ComponentRegistrar" />
+99-->[com.google.firebase:firebase-database:20.0.4] /Users/nour-elmi/.gradle/caches/transforms-3/71ff942f5e347d894f09ff9be1206dfa/transformed/firebase-database-20.0.4/AndroidManifest.xml:34:17-82
+100            <meta-data
+100-->[com.google.firebase:firebase-firestore:24.1.1] /Users/nour-elmi/.gradle/caches/transforms-3/5eb0587e1db708d08896e70592862297/transformed/firebase-firestore-24.1.1/AndroidManifest.xml:20:13-22:85
+101                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+101-->[com.google.firebase:firebase-firestore:24.1.1] /Users/nour-elmi/.gradle/caches/transforms-3/5eb0587e1db708d08896e70592862297/transformed/firebase-firestore-24.1.1/AndroidManifest.xml:21:17-111
+102                android:value="com.google.firebase.components.ComponentRegistrar" />
+102-->[com.google.firebase:firebase-firestore:24.1.1] /Users/nour-elmi/.gradle/caches/transforms-3/5eb0587e1db708d08896e70592862297/transformed/firebase-firestore-24.1.1/AndroidManifest.xml:22:17-82
+103            <meta-data
+103-->[com.google.firebase:firebase-storage:20.0.1] /Users/nour-elmi/.gradle/caches/transforms-3/38f26fcac62b78fda20ca3ae799c06f9/transformed/firebase-storage-20.0.1/AndroidManifest.xml:33:13-35:85
+104                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+104-->[com.google.firebase:firebase-storage:20.0.1] /Users/nour-elmi/.gradle/caches/transforms-3/38f26fcac62b78fda20ca3ae799c06f9/transformed/firebase-storage-20.0.1/AndroidManifest.xml:34:17-107
+105                android:value="com.google.firebase.components.ComponentRegistrar" />
+105-->[com.google.firebase:firebase-storage:20.0.1] /Users/nour-elmi/.gradle/caches/transforms-3/38f26fcac62b78fda20ca3ae799c06f9/transformed/firebase-storage-20.0.1/AndroidManifest.xml:35:17-82
+106        </service>
+107
+108        <provider
+108-->[com.google.firebase:firebase-common:20.1.0] /Users/nour-elmi/.gradle/caches/transforms-3/3959645a3573edbfd4d9bc542067603b/transformed/firebase-common-20.1.0/AndroidManifest.xml:26:9-31:39
+109            android:name="com.google.firebase.provider.FirebaseInitProvider"
+109-->[com.google.firebase:firebase-common:20.1.0] /Users/nour-elmi/.gradle/caches/transforms-3/3959645a3573edbfd4d9bc542067603b/transformed/firebase-common-20.1.0/AndroidManifest.xml:27:13-77
+110            android:authorities="com.example.contactapp.firebaseinitprovider"
+110-->[com.google.firebase:firebase-common:20.1.0] /Users/nour-elmi/.gradle/caches/transforms-3/3959645a3573edbfd4d9bc542067603b/transformed/firebase-common-20.1.0/AndroidManifest.xml:28:13-72
+111            android:directBootAware="true"
+111-->[com.google.firebase:firebase-common:20.1.0] /Users/nour-elmi/.gradle/caches/transforms-3/3959645a3573edbfd4d9bc542067603b/transformed/firebase-common-20.1.0/AndroidManifest.xml:29:13-43
+112            android:exported="false"
+112-->[com.google.firebase:firebase-common:20.1.0] /Users/nour-elmi/.gradle/caches/transforms-3/3959645a3573edbfd4d9bc542067603b/transformed/firebase-common-20.1.0/AndroidManifest.xml:30:13-37
+113            android:initOrder="100" />
+113-->[com.google.firebase:firebase-common:20.1.0] /Users/nour-elmi/.gradle/caches/transforms-3/3959645a3573edbfd4d9bc542067603b/transformed/firebase-common-20.1.0/AndroidManifest.xml:31:13-36
+114
+115        <activity
+115-->[com.google.android.gms:play-services-base:18.0.1] /Users/nour-elmi/.gradle/caches/transforms-3/756e26356ce30d9ce8eee13690c7d474/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+116            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+116-->[com.google.android.gms:play-services-base:18.0.1] /Users/nour-elmi/.gradle/caches/transforms-3/756e26356ce30d9ce8eee13690c7d474/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+117            android:exported="false"
+117-->[com.google.android.gms:play-services-base:18.0.1] /Users/nour-elmi/.gradle/caches/transforms-3/756e26356ce30d9ce8eee13690c7d474/transformed/play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+118            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+118-->[com.google.android.gms:play-services-base:18.0.1] /Users/nour-elmi/.gradle/caches/transforms-3/756e26356ce30d9ce8eee13690c7d474/transformed/play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+119
+120        <meta-data
+120-->[com.google.android.gms:play-services-basement:18.0.0] /Users/nour-elmi/.gradle/caches/transforms-3/6ea5f0b15f38f2df13254ec9ae1d210e/transformed/play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+121            android:name="com.google.android.gms.version"
+121-->[com.google.android.gms:play-services-basement:18.0.0] /Users/nour-elmi/.gradle/caches/transforms-3/6ea5f0b15f38f2df13254ec9ae1d210e/transformed/play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+122            android:value="@integer/google_play_services_version" />
+122-->[com.google.android.gms:play-services-basement:18.0.0] /Users/nour-elmi/.gradle/caches/transforms-3/6ea5f0b15f38f2df13254ec9ae1d210e/transformed/play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+123
+124        <provider
+124-->[androidx.emoji2:emoji2:1.2.0] /Users/nour-elmi/.gradle/caches/transforms-3/4e0d57b59a48b0b47976dac5d8cbd717/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+125            android:name="androidx.startup.InitializationProvider"
+125-->[androidx.emoji2:emoji2:1.2.0] /Users/nour-elmi/.gradle/caches/transforms-3/4e0d57b59a48b0b47976dac5d8cbd717/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+126            android:authorities="com.example.contactapp.androidx-startup"
+126-->[androidx.emoji2:emoji2:1.2.0] /Users/nour-elmi/.gradle/caches/transforms-3/4e0d57b59a48b0b47976dac5d8cbd717/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+127            android:exported="false" >
+127-->[androidx.emoji2:emoji2:1.2.0] /Users/nour-elmi/.gradle/caches/transforms-3/4e0d57b59a48b0b47976dac5d8cbd717/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+128            <meta-data
+128-->[androidx.emoji2:emoji2:1.2.0] /Users/nour-elmi/.gradle/caches/transforms-3/4e0d57b59a48b0b47976dac5d8cbd717/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+129                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+129-->[androidx.emoji2:emoji2:1.2.0] /Users/nour-elmi/.gradle/caches/transforms-3/4e0d57b59a48b0b47976dac5d8cbd717/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+130                android:value="androidx.startup" />
+130-->[androidx.emoji2:emoji2:1.2.0] /Users/nour-elmi/.gradle/caches/transforms-3/4e0d57b59a48b0b47976dac5d8cbd717/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+131            <meta-data
+131-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/nour-elmi/.gradle/caches/transforms-3/7f99fec45baa6b482cb18a0f870840bf/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+132                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+132-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/nour-elmi/.gradle/caches/transforms-3/7f99fec45baa6b482cb18a0f870840bf/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+133                android:value="androidx.startup" />
+133-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/nour-elmi/.gradle/caches/transforms-3/7f99fec45baa6b482cb18a0f870840bf/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+134        </provider>
+135    </application>
+136
+137</manifest>
